@@ -1,0 +1,25 @@
+git init
+
+mkdir app resources
+mkdir resources/images resources/js resources/styles
+
+touch index.html .gitignore package.json systemjs.config.js gulpfile.js tsconfig.json app/app.component.ts app/app.module.ts app/main.ts resources/styles/styles.css
+
+Copy & Paste:
+  .gitignore
+  index.html
+  gulpfile.js
+  tsconfig.json
+  systemjs.config.js
+  package.json (be sure to change "name")
+  main.ts
+  app.module.ts
+  app.components.ts
+
+Run:
+  npm install
+  bower init
+  bower install
+  bower install bootstrap --save
+  gulp build
+  gulp serve
